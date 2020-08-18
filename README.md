@@ -3,7 +3,7 @@ Windows version of ORB-SLAM3 with some slight updates. Please refer to original 
 
 Tested under Windows 10 Pro, Visual Studio 2019 Community. I started from Visual Studio 2015 but met many "fatal error C1060: compiler is out of heap space" when building. Those errors are solved by switch to VS2019.
 
-For easy to use, I put all the code including thirdparty libraries in a single project and it doesn't refer to any other resources.
+For easy to use, I put all the resources except for datasets into a folder and organize them as a single Visual Studio project.
 
 ### Program arguments
 
@@ -41,6 +41,27 @@ Stereo-Inertial:
   stereo_inertial_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N)
   stereo_inertial_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_image_folder_2 path_to_times_file path_to_imu_data (trajectory_file_name)
 ```
+
+### Example scripts
+Please point "pathDatasetEuroc" to your datasets before run the scripts.
+```
+set pathDatasetEuroc=YOUR_DATASET_PATH
+  set pathDatasetEuroc=YOUR_DATASET_PATH
+    set pathDatasetEuroc=YOUR_DATASET_PATH
+```
+
+Available example scripts:
+    euroc_examples.bat
+    euroc_examples_1.bat
+    kitti_examples.bat
+    kitti_examples_1.bat
+    tum_vi_examples.bat
+    tum_vi_examples_1.bat
+
+Available evaluation scripts:
+    euroc_eval_examples.bat
+    euroc_eval_examples_1.bat
+    tum_vi_eval_examples.bat
 
 ### Updates
 
