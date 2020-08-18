@@ -12,56 +12,58 @@ Available tests as the following...
 
 Monocular examples:
 ```
-  mono_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N) (trajectory_file_name)
-  mono_kitti path_to_vocabulary path_to_settings path_to_sequence
-  mono_tum path_to_vocabulary path_to_settings path_to_sequence
-  mono_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N) (trajectory_file_name)
+mono_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N) (trajectory_file_name)
+mono_kitti path_to_vocabulary path_to_settings path_to_sequence
+mono_tum path_to_vocabulary path_to_settings path_to_sequence
+mono_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N) (trajectory_file_name)
 ```
 
 Monocular-Inertial examples:
 ```
-  mono_inertial_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N)
-  mono_inertial_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_times_file_1 path_to_imu_data_1 (path_to_image_folder_2 path_to_times_file_2 path_to_imu_data_2 ... path_to_image_folder_N path_to_times_file_N path_to_imu_data_N) (trajectory_file_name)
+mono_inertial_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N)
+mono_inertial_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_times_file_1 path_to_imu_data_1 (path_to_image_folder_2 path_to_times_file_2 path_to_imu_data_2 ... path_to_image_folder_N path_to_times_file_N path_to_imu_data_N) (trajectory_file_name)
 ```
 
 RGB-D:
 ```
-  rgbd_tum path_to_vocabulary path_to_settings path_to_sequence path_to_association
+rgbd_tum path_to_vocabulary path_to_settings path_to_sequence path_to_association
 ```
 
 Stereo:
 ```
-  stereo_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N) (trajectory_file_name)
-  stereo_kitti path_to_vocabulary path_to_settings path_to_sequence
-  stereo_tum_vi path_to_vocabulary path_to_settings path_to_image_folder1_1 path_to_image_folder2_1 path_to_times_file_1 (path_to_image_folder1_2 path_to_image_folder2_2 path_to_times_file_2 ... path_to_image_folder1_N path_to_image_folder2_N path_to_times_file_N) (trajectory_file_name)
+stereo_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N) (trajectory_file_name)
+stereo_kitti path_to_vocabulary path_to_settings path_to_sequence
+stereo_tum_vi path_to_vocabulary path_to_settings path_to_image_folder1_1 path_to_image_folder2_1 path_to_times_file_1 (path_to_image_folder1_2 path_to_image_folder2_2 path_to_times_file_2 ... path_to_image_folder1_N path_to_image_folder2_N path_to_times_file_N) (trajectory_file_name)
 ```
 
 Stereo-Inertial:
 ```
-  stereo_inertial_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N)
-  stereo_inertial_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_image_folder_2 path_to_times_file path_to_imu_data (trajectory_file_name)
+stereo_inertial_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N)
+stereo_inertial_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_image_folder_2 path_to_times_file path_to_imu_data (trajectory_file_name)
 ```
 
 ### Example scripts
 Please point "pathDatasetEuroc" to your datasets before run the scripts.
 ```
 set pathDatasetEuroc=YOUR_DATASET_PATH
-  set pathDatasetEuroc=YOUR_DATASET_PATH
-    set pathDatasetEuroc=YOUR_DATASET_PATH
 ```
 
-Available example scripts:
-    euroc_examples.bat
-    euroc_examples_1.bat
-    kitti_examples.bat
-    kitti_examples_1.bat
-    tum_vi_examples.bat
-    tum_vi_examples_1.bat
+Available example scripts
+```
+euroc_examples.bat      : Run all EuRoC examples and save result and log files to ./log
+euroc_examples_1.bat    : Run a single EuRoC test and display log information to Command Prompt
+kitti_examples.bat      : Run all KITTI examples and save result and log files to ./log
+kitti_examples_1.bat    : Run a single KITTI test and display log information to Command Prompt
+tum_vi_examples.bat     : Run all TUM-VI examples and save result and log files to ./log
+tum_vi_examples_1.bat   : Run a single TUM-VI test and display log information to Command Prompt
+```
 
-Available evaluation scripts:
-    euroc_eval_examples.bat
-    euroc_eval_examples_1.bat
-    tum_vi_eval_examples.bat
+Available evaluation scripts
+```
+euroc_eval_examples.bat
+euroc_eval_examples_1.bat
+tum_vi_eval_examples.bat
+```
 
 ### Updates
 
