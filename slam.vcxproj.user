@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>mono_inertial_tum_vi Vocabulary/ORBvoc.txt Examples/Monocular-Inertial/TUM_512.yaml D:/vbox/shared/SLAM/TUM_VI/dataset-magistrale1_512_16/mav0/cam0/data Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale1_512.txt Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale1_512.txt dataset-magistrale1_512_monoi</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>mono_inertial_tum_vi Vocabulary/ORBvoc.txt Examples/Monocular-Inertial/TUM_512.yaml D:/vbox/shared/SLAM/TUM_VI/dataset-magistrale1_512_16/mav0/cam0/data Examples/Monocular-Inertial/TUM_TimeStamps/dataset-magistrale1_512.txt Examples/Monocular-Inertial/TUM_IMU/dataset-magistrale1_512.txt dataset-magistrale1_512_monoi</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
