@@ -1,0 +1,332 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:02 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.13.0-rc3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.13.0-rc3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.13.0-rc3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/3.13.0-rc3/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_37e74.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:03 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\cmTC_37e74.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_37e74.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_37e74.dir\Debug\cmTC_37e74.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_37e74.dir\Debug\cmTC_37e74.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37e74.dir\Debug\\" /Fd"cmTC_37e74.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37e74.dir\Debug\\" /Fd"cmTC_37e74.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_37e74.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_37e74.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_37e74.lib" /MACHINE:X64  /machine:x64 cmTC_37e74.dir\Debug\testCCompiler.obj
+  cmTC_37e74.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_37e74.exe
+  cmTC_37e74.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_37e74.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_37e74.dir\Debug\cmTC_37e74.tlog\unsuccessfulbuild".
+  Touching "cmTC_37e74.dir\Debug\cmTC_37e74.tlog\cmTC_37e74.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\cmTC_37e74.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_26a43.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:04 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\cmTC_26a43.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_26a43.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_26a43.dir\Debug\cmTC_26a43.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_26a43.dir\Debug\cmTC_26a43.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26a43.dir\Debug\\" /Fd"cmTC_26a43.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26a43.dir\Debug\\" /Fd"cmTC_26a43.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_26a43.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_26a43.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_26a43.lib" /MACHINE:X64  /machine:x64 cmTC_26a43.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_26a43.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_26a43.exe
+  cmTC_26a43.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_26a43.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_26a43.dir\Debug\cmTC_26a43.tlog\unsuccessfulbuild".
+  Touching "cmTC_26a43.dir\Debug\cmTC_26a43.tlog\cmTC_26a43.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\cmTC_26a43.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_be183.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:04 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\cmTC_be183.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_be183.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_be183.dir\Debug\cmTC_be183.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_be183.dir\Debug\cmTC_be183.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be183.dir\Debug\\" /Fd"cmTC_be183.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\feature_tests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be183.dir\Debug\\" /Fd"cmTC_be183.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\feature_tests.c"
+  
+  feature_tests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_be183.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_be183.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_be183.lib" /MACHINE:X64  /machine:x64 cmTC_be183.dir\Debug\feature_tests.obj
+  cmTC_be183.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_be183.exe
+  cmTC_be183.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_be183.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_be183.dir\Debug\cmTC_be183.tlog\unsuccessfulbuild".
+  Touching "cmTC_be183.dir\Debug\cmTC_be183.tlog\cmTC_be183.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\cmTC_be183.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.64
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c006a.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:05 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\cmTC_c006a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c006a.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c006a.dir\Debug\cmTC_c006a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c006a.dir\Debug\cmTC_c006a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c006a.dir\Debug\\" /Fd"cmTC_c006a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c006a.dir\Debug\\" /Fd"cmTC_c006a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_c006a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_c006a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_c006a.lib" /MACHINE:X64  /machine:x64 cmTC_c006a.dir\Debug\CheckIncludeFile.obj
+  cmTC_c006a.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_c006a.exe
+  cmTC_c006a.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_c006a.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_c006a.dir\Debug\cmTC_c006a.tlog\unsuccessfulbuild".
+  Touching "cmTC_c006a.dir\Debug\cmTC_c006a.tlog\cmTC_c006a.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\cmTC_c006a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_568c4.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:06 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\cmTC_568c4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_568c4.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_568c4.dir\Debug\cmTC_568c4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_568c4.dir\Debug\cmTC_568c4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_568c4.dir\Debug\\" /Fd"cmTC_568c4.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_568c4.dir\Debug\\" /Fd"cmTC_568c4.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_568c4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_568c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_568c4.lib" /MACHINE:X64  /machine:x64 cmTC_568c4.dir\Debug\CheckIncludeFile.obj
+  cmTC_568c4.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_568c4.exe
+  cmTC_568c4.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_568c4.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_568c4.dir\Debug\cmTC_568c4.tlog\unsuccessfulbuild".
+  Touching "cmTC_568c4.dir\Debug\cmTC_568c4.tlog\cmTC_568c4.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\cmTC_568c4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/31/2019 3:17:28 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.15.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.15.3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\3.15.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/3.15.3/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_6b8ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b8ba.dir\Debug\\" /Fd"cmTC_6b8ba.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+  cmTC_6b8ba.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_6b8ba.exe
+  cmTC_6b8ba.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_6b8ba.pdb (Full PDB)
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_cbd44.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cbd44.dir\Debug\\" /Fd"cmTC_cbd44.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+  cmTC_cbd44.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\CMakeFiles\CMakeTmp\Debug\cmTC_cbd44.exe
+  cmTC_cbd44.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/CMakeTmp/Debug/cmTC_cbd44.pdb (Full PDB)
+
+
+

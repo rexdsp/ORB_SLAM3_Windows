@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemnobs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jaricom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jccoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jccolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcdctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jchuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcinit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcomapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcparam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcprepct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jctrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdatadst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdatasrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdcoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdcolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jddctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdhuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdinput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmerge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdpostct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jfdctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jfdctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jfdctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jidctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jidctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jidctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jquant1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jquant2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cderror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cdjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jinclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemsys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jpegint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\transupp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmorecfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jpeglib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4E0530FC-8D82-3EA7-B438-A299D4BE7B1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{65DDB6F7-CCDF-3759-9D2B-7FE0EB00D48A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

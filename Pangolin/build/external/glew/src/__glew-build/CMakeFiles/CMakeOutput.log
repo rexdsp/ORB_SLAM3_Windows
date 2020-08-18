@@ -1,0 +1,632 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:05 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.13.0-rc3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.13.0-rc3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.13.0-rc3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/3.13.0-rc3/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:06 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.13.0-rc3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.13.0-rc3\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.13.0-rc3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/3.13.0-rc3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_997ab.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:06 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_997ab.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_997ab.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_997ab.dir\Debug\cmTC_997ab.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_997ab.dir\Debug\cmTC_997ab.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_997ab.dir\Debug\\" /Fd"cmTC_997ab.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_997ab.dir\Debug\\" /Fd"cmTC_997ab.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_997ab.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_997ab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_997ab.lib" /MACHINE:X64  /machine:x64 cmTC_997ab.dir\Debug\testCCompiler.obj
+  cmTC_997ab.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_997ab.exe
+  cmTC_997ab.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_997ab.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_997ab.dir\Debug\cmTC_997ab.tlog\unsuccessfulbuild".
+  Touching "cmTC_997ab.dir\Debug\cmTC_997ab.tlog\cmTC_997ab.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_997ab.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2ada6.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:07 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_2ada6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2ada6.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2ada6.dir\Debug\cmTC_2ada6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2ada6.dir\Debug\cmTC_2ada6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ada6.dir\Debug\\" /Fd"cmTC_2ada6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ada6.dir\Debug\\" /Fd"cmTC_2ada6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_2ada6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_2ada6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_2ada6.lib" /MACHINE:X64  /machine:x64 cmTC_2ada6.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_2ada6.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_2ada6.exe
+  cmTC_2ada6.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_2ada6.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_2ada6.dir\Debug\cmTC_2ada6.tlog\unsuccessfulbuild".
+  Touching "cmTC_2ada6.dir\Debug\cmTC_2ada6.tlog\cmTC_2ada6.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_2ada6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_63979.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:08 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_63979.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_63979.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_63979.dir\Debug\cmTC_63979.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_63979.dir\Debug\cmTC_63979.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63979.dir\Debug\\" /Fd"cmTC_63979.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\feature_tests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63979.dir\Debug\\" /Fd"cmTC_63979.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\feature_tests.c"
+  
+  feature_tests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_63979.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_63979.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_63979.lib" /MACHINE:X64  /machine:x64 cmTC_63979.dir\Debug\feature_tests.obj
+  cmTC_63979.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_63979.exe
+  cmTC_63979.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_63979.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_63979.dir\Debug\cmTC_63979.tlog\unsuccessfulbuild".
+  Touching "cmTC_63979.dir\Debug\cmTC_63979.tlog\cmTC_63979.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_63979.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e1f8d.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:09 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_e1f8d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e1f8d.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e1f8d.dir\Debug\cmTC_e1f8d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e1f8d.dir\Debug\cmTC_e1f8d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e1f8d.dir\Debug\\" /Fd"cmTC_e1f8d.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e1f8d.dir\Debug\\" /Fd"cmTC_e1f8d.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_e1f8d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_e1f8d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_e1f8d.lib" /MACHINE:X64  /machine:x64 cmTC_e1f8d.dir\Debug\testCXXCompiler.obj
+  cmTC_e1f8d.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_e1f8d.exe
+  cmTC_e1f8d.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_e1f8d.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_e1f8d.dir\Debug\cmTC_e1f8d.tlog\unsuccessfulbuild".
+  Touching "cmTC_e1f8d.dir\Debug\cmTC_e1f8d.tlog\cmTC_e1f8d.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_e1f8d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fb3ac.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:10 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_fb3ac.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fb3ac.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fb3ac.dir\Debug\cmTC_fb3ac.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fb3ac.dir\Debug\cmTC_fb3ac.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fb3ac.dir\Debug\\" /Fd"cmTC_fb3ac.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fb3ac.dir\Debug\\" /Fd"cmTC_fb3ac.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_fb3ac.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_fb3ac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_fb3ac.lib" /MACHINE:X64  /machine:x64 cmTC_fb3ac.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_fb3ac.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_fb3ac.exe
+  cmTC_fb3ac.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_fb3ac.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_fb3ac.dir\Debug\cmTC_fb3ac.tlog\unsuccessfulbuild".
+  Touching "cmTC_fb3ac.dir\Debug\cmTC_fb3ac.tlog\cmTC_fb3ac.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_fb3ac.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b25fc.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/26/2019 2:35:10 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_b25fc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b25fc.dir\Debug\".
+  Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b25fc.dir\Debug\cmTC_b25fc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b25fc.dir\Debug\cmTC_b25fc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b25fc.dir\Debug\\" /Fd"cmTC_b25fc.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b25fc.dir\Debug\\" /Fd"cmTC_b25fc.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_b25fc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_b25fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_b25fc.lib" /MACHINE:X64  /machine:x64 cmTC_b25fc.dir\Debug\feature_tests.obj
+  cmTC_b25fc.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_b25fc.exe
+  cmTC_b25fc.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_b25fc.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_b25fc.dir\Debug\cmTC_b25fc.tlog\unsuccessfulbuild".
+  Touching "cmTC_b25fc.dir\Debug\cmTC_b25fc.tlog\cmTC_b25fc.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\cmTC_b25fc.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.66
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/31/2019 3:17:29 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.15.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.15.3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.15.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/3.15.3/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/31/2019 3:17:30 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.15.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.15.3\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\3.15.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/3.15.3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_5a836.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a836.dir\Debug\\" /Fd"cmTC_5a836.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+  cmTC_5a836.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_5a836.exe
+  cmTC_5a836.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_5a836.pdb (Full PDB)
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_22cd6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22cd6.dir\Debug\\" /Fd"cmTC_22cd6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+  cmTC_22cd6.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_22cd6.exe
+  cmTC_22cd6.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_22cd6.pdb (Full PDB)
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_43c94.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_43c94.dir\Debug\\" /Fd"cmTC_43c94.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+  cmTC_43c94.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_43c94.exe
+  cmTC_43c94.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_43c94.pdb (Full PDB)
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_2efdf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2efdf.dir\Debug\\" /Fd"cmTC_2efdf.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+  cmTC_2efdf.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_2efdf.exe
+  cmTC_2efdf.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_2efdf.pdb (Full PDB)
+
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_a5666.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.24730.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a5666.dir\Debug\\" /Fd"cmTC_a5666.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+  cmTC_a5666.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\CMakeFiles\CMakeTmp\Debug\cmTC_a5666.exe
+  cmTC_a5666.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/CMakeTmp/Debug/cmTC_a5666.pdb (Full PDB)
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

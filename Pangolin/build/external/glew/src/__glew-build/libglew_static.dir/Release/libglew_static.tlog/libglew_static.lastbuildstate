@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Release|x64|D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\|

@@ -1,0 +1,13 @@
+# Target labels
+ __libpng
+# Source files and their labels
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/CMakeFiles/__libpng
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/8602db033bd6cc0ebd73651f51f2fa88/__libpng.rule
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/c3c3f427e5c26f5fb298005c72a298ee/__libpng-complete.rule
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/ee68a34e65b821e9df5eff21f4823964/__libpng-install.rule
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/ee68a34e65b821e9df5eff21f4823964/__libpng-mkdir.rule
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/ee68a34e65b821e9df5eff21f4823964/__libpng-download.rule
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/ee68a34e65b821e9df5eff21f4823964/__libpng-update.rule
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/ee68a34e65b821e9df5eff21f4823964/__libpng-patch.rule
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/ee68a34e65b821e9df5eff21f4823964/__libpng-configure.rule
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/ee68a34e65b821e9df5eff21f4823964/__libpng-build.rule

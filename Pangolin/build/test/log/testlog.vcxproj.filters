@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\test\log\testlog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\src\log\iPacketStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\src\log\oPacketStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\src\utils\file_extension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\src\utils\file_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\src\utils\sigstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\src\utils\threadedfilebuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\src\utils\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\src\utils\uri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\test\log\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{788CCCCA-C786-3D25-92B3-A00D4A1FD1C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

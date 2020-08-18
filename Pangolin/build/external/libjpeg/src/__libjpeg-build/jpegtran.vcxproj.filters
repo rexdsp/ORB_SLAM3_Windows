@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jpegtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cdjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\rdswitch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\transupp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{65DDB6F7-CCDF-3759-9D2B-7FE0EB00D48A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

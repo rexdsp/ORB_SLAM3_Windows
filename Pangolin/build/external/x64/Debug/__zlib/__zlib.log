@@ -1,0 +1,365 @@
+﻿  Creating directories for '__zlib'
+  Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/external/CMakeLists.txt
+  CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/CMakeFiles/generate.stamp is up-to-date.
+  Performing download step (git clone) for '__zlib'
+  Cloning into '__zlib'...
+  Note: checking out 'v1.2.8'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at 5089329... zlib 1.2.8
+  Performing update step for '__zlib'
+  No patch step for '__zlib'
+  Performing configure step for '__zlib'
+  -- Selecting Windows SDK version  to target Windows 10.0.17134.
+  -- The C compiler identification is MSVC 19.0.23506.0
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of off64_t
+  -- Check size of off64_t - failed
+  -- Looking for fseeko
+  -- Looking for fseeko - not found
+  -- Looking for unistd.h
+  -- Looking for unistd.h - not found
+  -- Renaming
+  --     D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/zconf.h
+  -- to 'zconf.h.included' because this file is included with zlib
+  -- but CMake generates it automatically in the build directory.
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      CMAKE_BUILD_TYPE
+  
+  
+  -- Build files have been written to: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build
+  Performing build step for '__zlib'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 8/26/2019 2:35:10 PM.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\ZERO_CHECK\".
+    Creating directory "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ZERO_CHECK.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\example.vcxproj" (3) on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\example.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\zlib.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "zlib.dir\Debug\".
+    Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\".
+    Creating directory "zlib.dir\Debug\zlib.tlog\".
+  InitializeBuildStatus:
+    Creating "zlib.dir\Debug\zlib.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D ZLIB_DLL /D _WINDLL /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"zlib.dir\Debug\\" /Fd"zlib.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\adler32.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\compress.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\crc32.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\deflate.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\gzclose.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\gzlib.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\gzread.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\gzwrite.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\inflate.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\infback.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\inftrees.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\inffast.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\trees.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\uncompr.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\zutil.c
+    adler32.c
+    compress.c
+    crc32.c
+    deflate.c
+    gzclose.c
+    gzlib.c
+    gzread.c
+    gzwrite.c
+    inflate.c
+    infback.c
+    inftrees.c
+    inffast.c
+    trees.c
+    uncompr.c
+    zutil.c
+    Generating Code...
+  ResourceCompile:
+    C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _DEBUG /D _WINDOWS /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\\"Debug\\\"" /D ZLIB_DLL /l"0x0409" /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build" /nologo /fo"zlib.dir\Debug\zlib1.res" D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\win32\zlib1.rc 
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\zlibd.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/zlibd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/zlibd.lib" /MACHINE:X64  /machine:x64 /DLL zlib.dir\Debug\zlib1.res
+    zlib.dir\Debug\adler32.obj
+    zlib.dir\Debug\compress.obj
+    zlib.dir\Debug\crc32.obj
+    zlib.dir\Debug\deflate.obj
+    zlib.dir\Debug\gzclose.obj
+    zlib.dir\Debug\gzlib.obj
+    zlib.dir\Debug\gzread.obj
+    zlib.dir\Debug\gzwrite.obj
+    zlib.dir\Debug\inflate.obj
+    zlib.dir\Debug\infback.obj
+    zlib.dir\Debug\inftrees.obj
+    zlib.dir\Debug\inffast.obj
+    zlib.dir\Debug\trees.obj
+    zlib.dir\Debug\uncompr.obj
+    zlib.dir\Debug\zutil.obj
+       Creating library D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/zlibd.lib and object D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/zlibd.exp
+    zlib.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\zlibd.dll
+    zlib.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/zlibd.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "zlib.dir\Debug\zlib.tlog\unsuccessfulbuild".
+    Touching "zlib.dir\Debug\zlib.tlog\zlib.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\zlib.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "example.dir\Debug\".
+    Creating directory "example.dir\Debug\example.tlog\".
+  InitializeBuildStatus:
+    Creating "example.dir\Debug\example.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"example.dir\Debug\\" /Fd"example.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\test\example.c
+    example.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\example.exe" /INCREMENTAL /NOLOGO Debug\zlibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/example.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/example.lib" /MACHINE:X64  /machine:x64 example.dir\Debug\example.obj
+    example.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\example.exe
+    example.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/example.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "example.dir\Debug\example.tlog\unsuccessfulbuild".
+    Touching "example.dir\Debug\example.tlog\example.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\example.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\minigzip.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "minigzip.dir\Debug\".
+    Creating directory "minigzip.dir\Debug\minigzip.tlog\".
+  InitializeBuildStatus:
+    Creating "minigzip.dir\Debug\minigzip.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"minigzip.dir\Debug\\" /Fd"minigzip.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\test\minigzip.c
+    minigzip.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\minigzip.exe" /INCREMENTAL /NOLOGO Debug\zlibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/minigzip.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/minigzip.lib" /MACHINE:X64  /machine:x64 minigzip.dir\Debug\minigzip.obj
+    minigzip.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\minigzip.exe
+    minigzip.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/minigzip.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "minigzip.dir\Debug\minigzip.tlog\unsuccessfulbuild".
+    Touching "minigzip.dir\Debug\minigzip.tlog\minigzip.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\minigzip.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\zlibstatic.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "zlibstatic.dir\Debug\".
+    Creating directory "zlibstatic.dir\Debug\zlibstatic.tlog\".
+  InitializeBuildStatus:
+    Creating "zlibstatic.dir\Debug\zlibstatic.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"zlibstatic.dir\Debug\\" /Fd"zlibstatic.dir\Debug\zlibstatic.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\adler32.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\compress.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\crc32.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\deflate.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\gzclose.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\gzlib.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\gzread.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\gzwrite.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\inflate.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\infback.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\inftrees.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\inffast.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\trees.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\uncompr.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib\zutil.c
+    adler32.c
+    compress.c
+    crc32.c
+    deflate.c
+    gzclose.c
+    gzlib.c
+    gzread.c
+    gzwrite.c
+    inflate.c
+    infback.c
+    inftrees.c
+    inffast.c
+    trees.c
+    uncompr.c
+    zutil.c
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\zlibstaticd.lib" /NOLOGO /MACHINE:X64  /machine:x64 zlibstatic.dir\Debug\adler32.obj
+    zlibstatic.dir\Debug\compress.obj
+    zlibstatic.dir\Debug\crc32.obj
+    zlibstatic.dir\Debug\deflate.obj
+    zlibstatic.dir\Debug\gzclose.obj
+    zlibstatic.dir\Debug\gzlib.obj
+    zlibstatic.dir\Debug\gzread.obj
+    zlibstatic.dir\Debug\gzwrite.obj
+    zlibstatic.dir\Debug\inflate.obj
+    zlibstatic.dir\Debug\infback.obj
+    zlibstatic.dir\Debug\inftrees.obj
+    zlibstatic.dir\Debug\inffast.obj
+    zlibstatic.dir\Debug\trees.obj
+    zlibstatic.dir\Debug\uncompr.obj
+    zlibstatic.dir\Debug\zutil.obj
+    zlibstatic.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\zlibstaticd.lib
+  FinalizeBuildStatus:
+    Deleting file "zlibstatic.dir\Debug\zlibstatic.tlog\unsuccessfulbuild".
+    Touching "zlibstatic.dir\Debug\zlibstatic.tlog\zlibstatic.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\zlibstatic.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\ALL_BUILD\".
+    Creating directory "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:04.38
+  Performing install step for '__zlib'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 8/26/2019 2:35:15 PM.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\install.vcxproj" on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\install.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ZERO_CHECK.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\install.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\example.vcxproj" (4) on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\example.vcxproj" (4) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\zlib.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "zlib.dir\Debug\zlib.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  ResourceCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    zlib.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\zlibd.dll
+    zlib.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/zlibd.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "zlib.dir\Debug\zlib.tlog\unsuccessfulbuild".
+    Touching "zlib.dir\Debug\zlib.tlog\zlib.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\zlib.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "example.dir\Debug\example.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    example.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\example.exe
+    example.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/example.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "example.dir\Debug\example.tlog\unsuccessfulbuild".
+    Touching "example.dir\Debug\example.tlog\example.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\example.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\minigzip.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "minigzip.dir\Debug\minigzip.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    minigzip.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\minigzip.exe
+    minigzip.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Debug/minigzip.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "minigzip.dir\Debug\minigzip.tlog\unsuccessfulbuild".
+    Touching "minigzip.dir\Debug\minigzip.tlog\minigzip.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\minigzip.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\zlibstatic.vcxproj" (7) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "zlibstatic.dir\Debug\zlibstatic.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    zlibstatic.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Debug\zlibstaticd.lib
+  FinalizeBuildStatus:
+    Deleting file "zlibstatic.dir\Debug\zlibstatic.tlog\unsuccessfulbuild".
+    Touching "zlibstatic.dir\Debug\zlibstatic.tlog\zlibstatic.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\zlibstatic.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\INSTALL\".
+    Creating directory "x64\Debug\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Debug"
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/lib/zlibd.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/bin/zlibd.dll
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/lib/zlibstaticd.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/include/zconf.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/include/zlib.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/share/man/man3/zlib.3
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/share/pkgconfig/zlib.pc
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:00.88
+  Completed '__zlib'

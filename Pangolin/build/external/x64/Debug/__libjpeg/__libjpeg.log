@@ -1,0 +1,612 @@
+﻿  Creating directories for '__libjpeg'
+  Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/external/CMakeLists.txt
+  CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/CMakeFiles/generate.stamp is up-to-date.
+  Performing download step (git clone) for '__libjpeg'
+  Cloning into '__libjpeg'...
+  Note: checking out 'bc8f8be222287fec977ec3f47a5cb065cceb2ee9'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at bc8f8be... Updated travis hook
+  Performing update step for '__libjpeg'
+  No patch step for '__libjpeg'
+  Performing configure step for '__libjpeg'
+  -- Selecting Windows SDK version  to target Windows 10.0.17134.
+  -- The C compiler identification is MSVC 19.0.23506.0
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  DIST_NAME: libjpeg
+  DIST_VERSION: 8.4.0
+  DIST_LICENSE: jpeg license
+  DIST_AUTHOR: Tom Lane, Guido Vollbeding, Philip Gladstone, Bill Allombert, Jim Boucher, Lee Crocker, Bob Friesenhahn, Ben Jackson, Julian Minguillon, Luis Ortiz, George Phillips, Davide Rossi, Ge
+  DIST_MAINTAINER: Peter Kapec
+  DIST_URL: http://www.ijg.org/
+  DIST_DESC: Independent JPEG Group
+  DIST_DEPENDS: 
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Looking for stdlib.h
+  -- Looking for stdlib.h - found
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "djpeg".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:61 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "djpeg".  Use the
+  -- Configuring done
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:63 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "cjpeg".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:65 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "djpeg".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:67 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "cjpeg".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:69 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "jpegtran".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:71 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      CMAKE_BUILD_TYPE
+  
+  
+  -- Build files have been written to: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build
+  Performing build step for '__libjpeg'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 8/26/2019 2:35:07 PM.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\ZERO_CHECK\".
+    Creating directory "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ZERO_CHECK.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\cjpeg.vcxproj" (3) on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\cjpeg.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "jpeg.dir\Debug\".
+    Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\".
+    Creating directory "jpeg.dir\Debug\jpeg.tlog\".
+  InitializeBuildStatus:
+    Creating "jpeg.dir\Debug\jpeg.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"jpeg.dir\Debug\\" /Fd"jpeg.dir\Debug\jpeg.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemnobs.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jaricom.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcapimin.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcapistd.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcarith.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jccoefct.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jccolor.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcdctmgr.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jchuff.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcinit.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcmainct.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcmarker.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcmaster.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcomapi.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcparam.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcprepct.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jcsample.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jctrans.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdapimin.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdapistd.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdarith.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdatadst.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdatasrc.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdcoefct.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdcolor.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jddctmgr.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdhuff.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdinput.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmainct.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmarker.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmaster.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdmerge.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdpostct.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdsample.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdtrans.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jerror.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jfdctflt.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jfdctfst.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jfdctint.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jidctflt.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jidctfst.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jidctint.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jquant1.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jquant2.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jutils.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c
+    jmemnobs.c
+    jaricom.c
+    jcapimin.c
+    jcapistd.c
+    jcarith.c
+    jccoefct.c
+    jccolor.c
+    jcdctmgr.c
+    jchuff.c
+    jcinit.c
+    jcmainct.c
+    jcmarker.c
+    jcmaster.c
+    jcomapi.c
+    jcparam.c
+    jcprepct.c
+    jcsample.c
+    jctrans.c
+    jdapimin.c
+    jdapistd.c
+    Generating Code...
+    Compiling...
+    jdarith.c
+    jdatadst.c
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdatadst.c(185): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+    jdatasrc.c
+    jdcoefct.c
+    jdcolor.c
+    jddctmgr.c
+    jdhuff.c
+    jdinput.c
+    jdmainct.c
+    jdmarker.c
+    jdmaster.c
+    jdmerge.c
+    jdpostct.c
+    jdsample.c
+    jdtrans.c
+    jerror.c
+    jfdctflt.c
+    jfdctfst.c
+    jfdctint.c
+    jidctflt.c
+    Generating Code...
+    Compiling...
+    jidctfst.c
+    jidctint.c
+    jquant1.c
+    jquant2.c
+    jutils.c
+    jmemmgr.c
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(307): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(367): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(977): warning C4267: '-=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(991): warning C4267: '-=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\jpeg.lib" /NOLOGO /MACHINE:X64  /machine:x64 jpeg.dir\Debug\jmemnobs.obj
+    jpeg.dir\Debug\jaricom.obj
+    jpeg.dir\Debug\jcapimin.obj
+    jpeg.dir\Debug\jcapistd.obj
+    jpeg.dir\Debug\jcarith.obj
+    jpeg.dir\Debug\jccoefct.obj
+    jpeg.dir\Debug\jccolor.obj
+    jpeg.dir\Debug\jcdctmgr.obj
+    jpeg.dir\Debug\jchuff.obj
+    jpeg.dir\Debug\jcinit.obj
+    jpeg.dir\Debug\jcmainct.obj
+    jpeg.dir\Debug\jcmarker.obj
+    jpeg.dir\Debug\jcmaster.obj
+    jpeg.dir\Debug\jcomapi.obj
+    jpeg.dir\Debug\jcparam.obj
+    jpeg.dir\Debug\jcprepct.obj
+    jpeg.dir\Debug\jcsample.obj
+    jpeg.dir\Debug\jctrans.obj
+    jpeg.dir\Debug\jdapimin.obj
+    jpeg.dir\Debug\jdapistd.obj
+    jpeg.dir\Debug\jdarith.obj
+    jpeg.dir\Debug\jdatadst.obj
+    jpeg.dir\Debug\jdatasrc.obj
+    jpeg.dir\Debug\jdcoefct.obj
+    jpeg.dir\Debug\jdcolor.obj
+    jpeg.dir\Debug\jddctmgr.obj
+    jpeg.dir\Debug\jdhuff.obj
+    jpeg.dir\Debug\jdinput.obj
+    jpeg.dir\Debug\jdmainct.obj
+    jpeg.dir\Debug\jdmarker.obj
+    jpeg.dir\Debug\jdmaster.obj
+    jpeg.dir\Debug\jdmerge.obj
+    jpeg.dir\Debug\jdpostct.obj
+    jpeg.dir\Debug\jdsample.obj
+    jpeg.dir\Debug\jdtrans.obj
+    jpeg.dir\Debug\jerror.obj
+    jpeg.dir\Debug\jfdctflt.obj
+    jpeg.dir\Debug\jfdctfst.obj
+    jpeg.dir\Debug\jfdctint.obj
+    jpeg.dir\Debug\jidctflt.obj
+    jpeg.dir\Debug\jidctfst.obj
+    jpeg.dir\Debug\jidctint.obj
+    jpeg.dir\Debug\jquant1.obj
+    jpeg.dir\Debug\jquant2.obj
+    jpeg.dir\Debug\jutils.obj
+    jpeg.dir\Debug\jmemmgr.obj
+    jpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\jpeg.lib
+  CopyFilesToOutputDirectory:
+    Copying file from "jpeg.dir\Debug\jpeg.pdb" to "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\jpeg.pdb".
+  FinalizeBuildStatus:
+    Deleting file "jpeg.dir\Debug\jpeg.tlog\unsuccessfulbuild".
+    Touching "jpeg.dir\Debug\jpeg.tlog\jpeg.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "cjpeg.dir\Debug\".
+    Creating directory "cjpeg.dir\Debug\cjpeg.tlog\".
+  InitializeBuildStatus:
+    Creating "cjpeg.dir\Debug\cjpeg.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cjpeg.dir\Debug\\" /Fd"cjpeg.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cdjpeg.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cjpeg.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\rdbmp.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\rdgif.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\rdppm.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\rdrle.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\rdtarga.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\rdswitch.c
+    cdjpeg.c
+    cjpeg.c
+    rdbmp.c
+    rdgif.c
+    rdppm.c
+    rdrle.c
+    rdtarga.c
+    rdswitch.c
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\cjpeg.exe" /INCREMENTAL /NOLOGO Debug\jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/cjpeg.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/cjpeg.lib" /MACHINE:X64  /machine:x64 cjpeg.dir\Debug\cdjpeg.obj
+    cjpeg.dir\Debug\cjpeg.obj
+    cjpeg.dir\Debug\rdbmp.obj
+    cjpeg.dir\Debug\rdgif.obj
+    cjpeg.dir\Debug\rdppm.obj
+    cjpeg.dir\Debug\rdrle.obj
+    cjpeg.dir\Debug\rdtarga.obj
+    cjpeg.dir\Debug\rdswitch.obj
+    cjpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\cjpeg.exe
+    cjpeg.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/cjpeg.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "cjpeg.dir\Debug\cjpeg.tlog\unsuccessfulbuild".
+    Touching "cjpeg.dir\Debug\cjpeg.tlog\cjpeg.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\cjpeg.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\djpeg.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "djpeg.dir\Debug\".
+    Creating directory "djpeg.dir\Debug\djpeg.tlog\".
+  InitializeBuildStatus:
+    Creating "djpeg.dir\Debug\djpeg.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"djpeg.dir\Debug\\" /Fd"djpeg.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cdjpeg.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\djpeg.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\wrbmp.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\wrgif.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\wrppm.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\wrrle.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\wrtarga.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\rdcolmap.c
+    cdjpeg.c
+    djpeg.c
+    wrbmp.c
+    wrgif.c
+    wrppm.c
+    wrrle.c
+    wrtarga.c
+    rdcolmap.c
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\djpeg.exe" /INCREMENTAL /NOLOGO Debug\jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/djpeg.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/djpeg.lib" /MACHINE:X64  /machine:x64 djpeg.dir\Debug\cdjpeg.obj
+    djpeg.dir\Debug\djpeg.obj
+    djpeg.dir\Debug\wrbmp.obj
+    djpeg.dir\Debug\wrgif.obj
+    djpeg.dir\Debug\wrppm.obj
+    djpeg.dir\Debug\wrrle.obj
+    djpeg.dir\Debug\wrtarga.obj
+    djpeg.dir\Debug\rdcolmap.obj
+    djpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\djpeg.exe
+    djpeg.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/djpeg.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "djpeg.dir\Debug\djpeg.tlog\unsuccessfulbuild".
+    Touching "djpeg.dir\Debug\djpeg.tlog\djpeg.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\djpeg.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpegtran.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "jpegtran.dir\Debug\".
+    Creating directory "jpegtran.dir\Debug\jpegtran.tlog\".
+  InitializeBuildStatus:
+    Creating "jpegtran.dir\Debug\jpegtran.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"jpegtran.dir\Debug\\" /Fd"jpegtran.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jpegtran.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\cdjpeg.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\rdswitch.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\transupp.c
+    jpegtran.c
+    cdjpeg.c
+    rdswitch.c
+    transupp.c
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\jpegtran.exe" /INCREMENTAL /NOLOGO Debug\jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/jpegtran.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/jpegtran.lib" /MACHINE:X64  /machine:x64 jpegtran.dir\Debug\jpegtran.obj
+    jpegtran.dir\Debug\cdjpeg.obj
+    jpegtran.dir\Debug\rdswitch.obj
+    jpegtran.dir\Debug\transupp.obj
+    jpegtran.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\jpegtran.exe
+    jpegtran.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/jpegtran.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "jpegtran.dir\Debug\jpegtran.tlog\unsuccessfulbuild".
+    Touching "jpegtran.dir\Debug\jpegtran.tlog\jpegtran.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpegtran.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\rdjpgcom.vcxproj" (7) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "rdjpgcom.dir\Debug\".
+    Creating directory "rdjpgcom.dir\Debug\rdjpgcom.tlog\".
+  InitializeBuildStatus:
+    Creating "rdjpgcom.dir\Debug\rdjpgcom.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"rdjpgcom.dir\Debug\\" /Fd"rdjpgcom.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\rdjpgcom.c
+    rdjpgcom.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\rdjpgcom.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/rdjpgcom.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/rdjpgcom.lib" /MACHINE:X64  /machine:x64 rdjpgcom.dir\Debug\rdjpgcom.obj
+    rdjpgcom.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\rdjpgcom.exe
+    rdjpgcom.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/rdjpgcom.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "rdjpgcom.dir\Debug\rdjpgcom.tlog\unsuccessfulbuild".
+    Touching "rdjpgcom.dir\Debug\rdjpgcom.tlog\rdjpgcom.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\rdjpgcom.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\wrjpgcom.vcxproj" (8) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "wrjpgcom.dir\Debug\".
+    Creating directory "wrjpgcom.dir\Debug\wrjpgcom.tlog\".
+  InitializeBuildStatus:
+    Creating "wrjpgcom.dir\Debug\wrjpgcom.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"wrjpgcom.dir\Debug\\" /Fd"wrjpgcom.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\wrjpgcom.c
+    wrjpgcom.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\wrjpgcom.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/wrjpgcom.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/wrjpgcom.lib" /MACHINE:X64  /machine:x64 wrjpgcom.dir\Debug\wrjpgcom.obj
+    wrjpgcom.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\wrjpgcom.exe
+    wrjpgcom.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/wrjpgcom.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "wrjpgcom.dir\Debug\wrjpgcom.tlog\unsuccessfulbuild".
+    Touching "wrjpgcom.dir\Debug\wrjpgcom.tlog\wrjpgcom.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\wrjpgcom.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\ALL_BUILD\".
+    Creating directory "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (default target) (1) ->
+  "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\cjpeg.vcxproj" (default target) (3) ->
+  "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj" (default target) (4) ->
+  (ClCompile target) -> 
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdatadst.c(185): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(307): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(367): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(977): warning C4267: '-=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(991): warning C4267: '-=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+  
+      5 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:08.25
+  Performing install step for '__libjpeg'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 8/26/2019 2:35:16 PM.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\install.vcxproj" on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\install.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ZERO_CHECK.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\install.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\cjpeg.vcxproj" (4) on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\cjpeg.vcxproj" (4) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "jpeg.dir\Debug\jpeg.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    jpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\jpeg.lib
+  FinalizeBuildStatus:
+    Deleting file "jpeg.dir\Debug\jpeg.tlog\unsuccessfulbuild".
+    Touching "jpeg.dir\Debug\jpeg.tlog\jpeg.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "cjpeg.dir\Debug\cjpeg.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    cjpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\cjpeg.exe
+    cjpeg.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/cjpeg.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "cjpeg.dir\Debug\cjpeg.tlog\unsuccessfulbuild".
+    Touching "cjpeg.dir\Debug\cjpeg.tlog\cjpeg.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\cjpeg.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\djpeg.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "djpeg.dir\Debug\djpeg.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    djpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\djpeg.exe
+    djpeg.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/djpeg.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "djpeg.dir\Debug\djpeg.tlog\unsuccessfulbuild".
+    Touching "djpeg.dir\Debug\djpeg.tlog\djpeg.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\djpeg.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpegtran.vcxproj" (7) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "jpegtran.dir\Debug\jpegtran.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    jpegtran.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\jpegtran.exe
+    jpegtran.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/jpegtran.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "jpegtran.dir\Debug\jpegtran.tlog\unsuccessfulbuild".
+    Touching "jpegtran.dir\Debug\jpegtran.tlog\jpegtran.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpegtran.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\rdjpgcom.vcxproj" (8) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "rdjpgcom.dir\Debug\rdjpgcom.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    rdjpgcom.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\rdjpgcom.exe
+    rdjpgcom.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/rdjpgcom.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "rdjpgcom.dir\Debug\rdjpgcom.tlog\unsuccessfulbuild".
+    Touching "rdjpgcom.dir\Debug\rdjpgcom.tlog\rdjpgcom.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\rdjpgcom.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\wrjpgcom.vcxproj" (9) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "wrjpgcom.dir\Debug\wrjpgcom.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    wrjpgcom.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Debug\wrjpgcom.exe
+    wrjpgcom.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build/Debug/wrjpgcom.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "wrjpgcom.dir\Debug\wrjpgcom.tlog\unsuccessfulbuild".
+    Touching "wrjpgcom.dir\Debug\wrjpgcom.tlog\wrjpgcom.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\wrjpgcom.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\INSTALL\".
+    Creating directory "x64\Debug\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Debug"
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/bin/cjpeg.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/bin/djpeg.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/bin/jpegtran.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/bin/rdjpgcom.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/bin/wrjpgcom.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/lib/jpeg.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/include/jerror.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/include/jmorecfg.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/include/jpeglib.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/include/jconfig.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/README
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/install.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/usage.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/wizard.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/example.c
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/libjpeg.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/structure.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/coderules.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/filelist.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/change.log
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.09
+  Completed '__libjpeg'

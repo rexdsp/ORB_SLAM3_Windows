@@ -1,0 +1,100 @@
+﻿  Creating directories for '__zlib'
+  Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/external/CMakeLists.txt
+  Performing download step (git clone) for '__zlib'
+  Cloning into '__zlib'...
+  Note: checking out 'v1.2.8'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at 5089329... zlib 1.2.8
+  Performing update step for '__zlib'
+  No patch step for '__zlib'
+  Performing configure step for '__zlib'
+  -- Selecting Windows SDK version  to target Windows 10.0.17134.
+  -- The C compiler identification is MSVC 19.0.23506.0
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Renaming
+  --     D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/zconf.h
+  -- to 'zconf.h.included' because this file is included with zlib
+  -- but CMake generates it automatically in the build directory.
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build
+  Performing build step for '__zlib'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    Checking Build System
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/CMakeLists.txt
+    adler32.c
+    compress.c
+    crc32.c
+    deflate.c
+    gzclose.c
+    gzlib.c
+    gzread.c
+    gzwrite.c
+    inflate.c
+    infback.c
+    inftrees.c
+    inffast.c
+    trees.c
+    uncompr.c
+    zutil.c
+    Generating Code...
+       Creating library D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Release/zlib.lib and object D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib-build/Release/zlib.exp
+    zlib.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Release\zlib.dll
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/CMakeLists.txt
+    example.c
+    example.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Release\example.exe
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/CMakeLists.txt
+    minigzip.c
+    minigzip.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Release\minigzip.exe
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/CMakeLists.txt
+    adler32.c
+    compress.c
+    crc32.c
+    deflate.c
+    gzclose.c
+    gzlib.c
+    gzread.c
+    gzwrite.c
+    inflate.c
+    infback.c
+    inftrees.c
+    inffast.c
+    trees.c
+    uncompr.c
+    zutil.c
+    Generating Code...
+    zlibstatic.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Release\zlibstatic.lib
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/src/__zlib/CMakeLists.txt
+  Performing install step for '__zlib'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    zlib.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Release\zlib.dll
+    example.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Release\example.exe
+    minigzip.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Release\minigzip.exe
+    zlibstatic.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\src\__zlib-build\Release\zlibstatic.lib
+    -- Install configuration: "Release"
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/lib/zlib.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/bin/zlib.dll
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/lib/zlibstatic.lib
+    -- Up-to-date: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/include/zconf.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/include/zlib.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/share/man/man3/zlib.3
+    -- Up-to-date: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/share/pkgconfig/zlib.pc
+  Completed '__zlib'

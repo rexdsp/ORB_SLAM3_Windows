@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/CMakeFiles/__glew"
+		},
+		{
+			"file" : "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/8602db033bd6cc0ebd73651f51f2fa88/__glew.rule"
+		},
+		{
+			"file" : "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/c3c3f427e5c26f5fb298005c72a298ee/__glew-complete.rule"
+		},
+		{
+			"file" : "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/d73aa6f842da01613c9d55ec512225b2/__glew-install.rule"
+		},
+		{
+			"file" : "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/d73aa6f842da01613c9d55ec512225b2/__glew-mkdir.rule"
+		},
+		{
+			"file" : "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/d73aa6f842da01613c9d55ec512225b2/__glew-download.rule"
+		},
+		{
+			"file" : "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/d73aa6f842da01613c9d55ec512225b2/__glew-update.rule"
+		},
+		{
+			"file" : "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/d73aa6f842da01613c9d55ec512225b2/__glew-patch.rule"
+		},
+		{
+			"file" : "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/d73aa6f842da01613c9d55ec512225b2/__glew-configure.rule"
+		},
+		{
+			"file" : "D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/CMakeFiles/d73aa6f842da01613c9d55ec512225b2/__glew-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"__glew"
+		],
+		"name" : "__glew"
+	}
+}

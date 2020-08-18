@@ -1,0 +1,247 @@
+﻿  Creating directories for '__libjpeg'
+  Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/external/CMakeLists.txt
+  Performing download step (git clone) for '__libjpeg'
+  Cloning into '__libjpeg'...
+  Note: checking out 'bc8f8be222287fec977ec3f47a5cb065cceb2ee9'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at bc8f8be... Updated travis hook
+  Performing update step for '__libjpeg'
+  No patch step for '__libjpeg'
+  Performing configure step for '__libjpeg'
+  -- Selecting Windows SDK version  to target Windows 10.0.17134.
+  -- The C compiler identification is MSVC 19.0.23506.0
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  DIST_NAME: libjpeg
+  DIST_VERSION: 8.4.0
+  DIST_LICENSE: jpeg license
+  DIST_AUTHOR: Tom Lane, Guido Vollbeding, Philip Gladstone, Bill Allombert, Jim Boucher, Lee Crocker, Bob Friesenhahn, Ben Jackson, Julian Minguillon, Luis Ortiz, George Phillips, Davide Rossi, Ge
+  DIST_MAINTAINER: Peter Kapec
+  DIST_URL: http://www.ijg.org/
+  DIST_DESC: Independent JPEG Group
+  DIST_DEPENDS: 
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "djpeg".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:61 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "djpeg".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:63 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "cjpeg".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:65 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "djpeg".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:67 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "cjpeg".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:69 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at CMakeLists.txt:56 (get_target_property):
+    Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+    Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  
+    The LOCATION property should not be read from target "jpegtran".  Use the
+    target name directly with add_custom_command, or use the generator
+    expression $<TARGET_FILE>, as appropriate.
+  
+  Call Stack (most recent call first):
+    CMakeLists.txt:71 (mytest)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg-build
+  Performing build step for '__libjpeg'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    Checking Build System
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    jmemnobs.c
+    jaricom.c
+    jcapimin.c
+    jcapistd.c
+    jcarith.c
+    jccoefct.c
+    jccolor.c
+    jcdctmgr.c
+    jchuff.c
+    jcinit.c
+    jcmainct.c
+    jcmarker.c
+    jcmaster.c
+    jcomapi.c
+    jcparam.c
+    jcprepct.c
+    jcsample.c
+    jctrans.c
+    jdapimin.c
+    jdapistd.c
+    Generating Code...
+    Compiling...
+    jdarith.c
+    jdatadst.c
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jdatadst.c(185): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+    jdatasrc.c
+    jdcoefct.c
+    jdcolor.c
+    jddctmgr.c
+    jdhuff.c
+    jdinput.c
+    jdmainct.c
+    jdmarker.c
+    jdmaster.c
+    jdmerge.c
+    jdpostct.c
+    jdsample.c
+    jdtrans.c
+    jerror.c
+    jfdctflt.c
+    jfdctfst.c
+    jfdctint.c
+    jidctflt.c
+    Generating Code...
+    Compiling...
+    jidctfst.c
+    jidctint.c
+    jquant1.c
+    jquant2.c
+    jutils.c
+    jmemmgr.c
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(307): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(367): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(977): warning C4267: '-=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg\jmemmgr.c(991): warning C4267: '-=': conversion from 'size_t' to 'long', possible loss of data [D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\jpeg.vcxproj]
+    Generating Code...
+    jpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\jpeg.lib
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    cdjpeg.c
+    cjpeg.c
+    rdbmp.c
+    rdgif.c
+    rdppm.c
+    rdrle.c
+    rdtarga.c
+    rdswitch.c
+    Generating Code...
+    cjpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\cjpeg.exe
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    cdjpeg.c
+    djpeg.c
+    wrbmp.c
+    wrgif.c
+    wrppm.c
+    wrrle.c
+    wrtarga.c
+    rdcolmap.c
+    Generating Code...
+    djpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\djpeg.exe
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    jpegtran.c
+    cdjpeg.c
+    rdswitch.c
+    transupp.c
+    Generating Code...
+    jpegtran.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\jpegtran.exe
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    rdjpgcom.c
+    rdjpgcom.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\rdjpgcom.exe
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+    wrjpgcom.c
+    wrjpgcom.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\wrjpgcom.exe
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/src/__libjpeg/CMakeLists.txt
+  Performing install step for '__libjpeg'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    jpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\jpeg.lib
+    cjpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\cjpeg.exe
+    djpeg.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\djpeg.exe
+    jpegtran.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\jpegtran.exe
+    rdjpgcom.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\rdjpgcom.exe
+    wrjpgcom.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libjpeg\src\__libjpeg-build\Release\wrjpgcom.exe
+    -- Install configuration: "Release"
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/bin/cjpeg.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/bin/djpeg.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/bin/jpegtran.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/bin/rdjpgcom.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/bin/wrjpgcom.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/lib/jpeg.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/include/jerror.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/include/jmorecfg.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/include/jpeglib.h
+    -- Up-to-date: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/include/jconfig.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/README
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/install.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/usage.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/wizard.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/example.c
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/libjpeg.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/structure.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/coderules.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/filelist.txt
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libjpeg/share/libjpeg/doc/change.log
+  Completed '__libjpeg'

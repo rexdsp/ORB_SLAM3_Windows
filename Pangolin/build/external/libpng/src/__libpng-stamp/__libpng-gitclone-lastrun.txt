@@ -1,0 +1,3 @@
+repository='https://github.com/glennrp/libpng.git'
+module=''
+tag='origin'

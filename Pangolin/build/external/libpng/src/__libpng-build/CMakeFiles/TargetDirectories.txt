@@ -1,0 +1,9 @@
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/png16.dir
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/png16_static.dir
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/INSTALL.dir
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/RUN_TESTS.dir
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/pngtest.dir
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/pngvalid.dir
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/pngstest.dir
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/ALL_BUILD.dir
+D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/ZERO_CHECK.dir

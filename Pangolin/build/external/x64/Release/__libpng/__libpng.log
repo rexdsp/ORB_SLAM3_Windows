@@ -1,0 +1,107 @@
+﻿  Creating directories for '__libpng'
+  Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/external/CMakeLists.txt
+  Performing download step (git clone) for '__libpng'
+  Cloning into '__libpng'...
+  Note: checking out 'v1.6.18'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at e617280... [libpng16] Imported from libpng-1.6.18.tar
+  Performing update step for '__libpng'
+  No patch step for '__libpng'
+  Performing configure step for '__libpng'
+  -- Selecting Windows SDK version  to target Windows 10.0.17134.
+  -- The C compiler identification is MSVC 19.0.23506.0
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build
+  Performing build step for '__libpng'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    Checking Build System
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    png.c
+    pngerror.c
+    pngget.c
+    pngmem.c
+    pngpread.c
+    pngread.c
+    pngrio.c
+    pngrtran.c
+    pngrutil.c
+    pngset.c
+    pngtrans.c
+    pngwio.c
+    pngwrite.c
+    pngwtran.c
+    pngwutil.c
+    Generating Code...
+       Creating library D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Release/libpng16.lib and object D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Release/libpng16.exp
+    png16.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Release\libpng16.dll
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    png.c
+    pngerror.c
+    pngget.c
+    pngmem.c
+    pngpread.c
+    pngread.c
+    pngrio.c
+    pngrtran.c
+    pngrutil.c
+    pngset.c
+    pngtrans.c
+    pngwio.c
+    pngwrite.c
+    pngwtran.c
+    pngwutil.c
+    Generating Code...
+    png16_static.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Release\libpng16_static.lib
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    pngstest.c
+    pngstest.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Release\pngstest.exe
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    pngtest.c
+    pngtest.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Release\pngtest.exe
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    pngvalid.c
+    pngvalid.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Release\pngvalid.exe
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+  Performing install step for '__libpng'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+    png16.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Release\libpng16.dll
+    png16_static.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Release\libpng16_static.lib
+    pngstest.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Release\pngstest.exe
+    pngtest.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Release\pngtest.exe
+    pngvalid.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Release\pngvalid.exe
+    -- Install configuration: "Release"
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/lib/libpng16.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/bin/libpng16.dll
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/lib/libpng16_static.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/png.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/pngconf.h
+    -- Up-to-date: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/pnglibconf.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/libpng16/png.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/libpng16/pngconf.h
+    -- Up-to-date: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/libpng16/pnglibconf.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/share/man/man3/libpng.3
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/share/man/man3/libpngpf.3
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/share/man/man5/png.5
+    -- Up-to-date: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/lib/libpng/libpng16.cmake
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/lib/libpng/libpng16-release.cmake
+  Completed '__libpng'

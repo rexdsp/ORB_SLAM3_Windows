@@ -1,0 +1,389 @@
+﻿  Creating directories for '__libpng'
+  Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/external/CMakeLists.txt
+  CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/CMakeFiles/generate.stamp is up-to-date.
+  Performing download step (git clone) for '__libpng'
+  Cloning into '__libpng'...
+  Note: checking out 'v1.6.18'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at e617280... [libpng16] Imported from libpng-1.6.18.tar
+  Performing update step for '__libpng'
+  No patch step for '__libpng'
+  Performing configure step for '__libpng'
+  -- Selecting Windows SDK version  to target Windows 10.0.17134.
+  -- The C compiler identification is MSVC 19.0.23506.0
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Found ZLIB: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/zlib/lib/zlibstatic*.lib (found version "1.2.8") 
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      CMAKE_BUILD_TYPE
+  
+  
+  -- Build files have been written to: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build
+  Performing build step for '__libpng'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 8/26/2019 2:35:35 PM.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\ZERO_CHECK\".
+    Creating directory "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ZERO_CHECK.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\png16.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "png16.dir\Debug\".
+    Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\".
+    Creating directory "png16.dir\Debug\png16.tlog\".
+  InitializeBuildStatus:
+    Creating "png16.dir\Debug\png16.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\include /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build" /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D PNG_BUILD_DLL /D _WINDLL /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"png16.dir\Debug\\" /Fd"png16.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\png.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngerror.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngget.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngmem.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngpread.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngread.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngrio.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngrtran.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngrutil.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngset.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngtrans.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwio.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwrite.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwtran.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwutil.c
+    png.c
+    pngerror.c
+    pngget.c
+    pngmem.c
+    pngpread.c
+    pngread.c
+    pngrio.c
+    pngrtran.c
+    pngrutil.c
+    pngset.c
+    pngtrans.c
+    pngwio.c
+    pngwrite.c
+    pngwtran.c
+    pngwutil.c
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\libpng16d.dll" /INCREMENTAL /NOLOGO "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\lib\zlibstatic*.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/libpng16d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/libpng16d.lib" /MACHINE:X64  /machine:x64 /DLL png16.dir\Debug\png.obj
+    png16.dir\Debug\pngerror.obj
+    png16.dir\Debug\pngget.obj
+    png16.dir\Debug\pngmem.obj
+    png16.dir\Debug\pngpread.obj
+    png16.dir\Debug\pngread.obj
+    png16.dir\Debug\pngrio.obj
+    png16.dir\Debug\pngrtran.obj
+    png16.dir\Debug\pngrutil.obj
+    png16.dir\Debug\pngset.obj
+    png16.dir\Debug\pngtrans.obj
+    png16.dir\Debug\pngwio.obj
+    png16.dir\Debug\pngwrite.obj
+    png16.dir\Debug\pngwtran.obj
+    png16.dir\Debug\pngwutil.obj
+       Creating library D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/libpng16d.lib and object D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/libpng16d.exp
+    png16.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\libpng16d.dll
+    png16.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/libpng16d.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "png16.dir\Debug\png16.tlog\unsuccessfulbuild".
+    Touching "png16.dir\Debug\png16.tlog\png16.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\png16.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\png16_static.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "png16_static.dir\Debug\".
+    Creating directory "png16_static.dir\Debug\png16_static.tlog\".
+  InitializeBuildStatus:
+    Creating "png16_static.dir\Debug\png16_static.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\include /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build" /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"png16_static.dir\Debug\\" /Fd"png16_static.dir\Debug\png16_static.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\png.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngerror.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngget.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngmem.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngpread.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngread.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngrio.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngrtran.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngrutil.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngset.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngtrans.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwio.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwrite.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwtran.c D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngwutil.c
+    png.c
+    pngerror.c
+    pngget.c
+    pngmem.c
+    pngpread.c
+    pngread.c
+    pngrio.c
+    pngrtran.c
+    pngrutil.c
+    pngset.c
+    pngtrans.c
+    pngwio.c
+    pngwrite.c
+    pngwtran.c
+    pngwutil.c
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\libpng16_staticd.lib" /NOLOGO /MACHINE:X64  /machine:x64 png16_static.dir\Debug\png.obj
+    png16_static.dir\Debug\pngerror.obj
+    png16_static.dir\Debug\pngget.obj
+    png16_static.dir\Debug\pngmem.obj
+    png16_static.dir\Debug\pngpread.obj
+    png16_static.dir\Debug\pngread.obj
+    png16_static.dir\Debug\pngrio.obj
+    png16_static.dir\Debug\pngrtran.obj
+    png16_static.dir\Debug\pngrutil.obj
+    png16_static.dir\Debug\pngset.obj
+    png16_static.dir\Debug\pngtrans.obj
+    png16_static.dir\Debug\pngwio.obj
+    png16_static.dir\Debug\pngwrite.obj
+    png16_static.dir\Debug\pngwtran.obj
+    png16_static.dir\Debug\pngwutil.obj
+    png16_static.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\libpng16_staticd.lib
+  FinalizeBuildStatus:
+    Deleting file "png16_static.dir\Debug\png16_static.tlog\unsuccessfulbuild".
+    Touching "png16_static.dir\Debug\png16_static.tlog\png16_static.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\png16_static.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngstest.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "pngstest.dir\Debug\".
+    Creating directory "pngstest.dir\Debug\pngstest.tlog\".
+  InitializeBuildStatus:
+    Creating "pngstest.dir\Debug\pngstest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\include /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build" /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"pngstest.dir\Debug\\" /Fd"pngstest.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\contrib\libtests\pngstest.c
+    pngstest.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\pngstest.exe" /INCREMENTAL /NOLOGO Debug\libpng16d.lib "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\lib\zlibstatic*.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngstest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngstest.lib" /MACHINE:X64  /machine:x64 pngstest.dir\Debug\pngstest.obj
+    pngstest.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\pngstest.exe
+    pngstest.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngstest.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "pngstest.dir\Debug\pngstest.tlog\unsuccessfulbuild".
+    Touching "pngstest.dir\Debug\pngstest.tlog\pngstest.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngstest.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngtest.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "pngtest.dir\Debug\".
+    Creating directory "pngtest.dir\Debug\pngtest.tlog\".
+  InitializeBuildStatus:
+    Creating "pngtest.dir\Debug\pngtest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\include /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build" /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"pngtest.dir\Debug\\" /Fd"pngtest.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\pngtest.c
+    pngtest.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\pngtest.exe" /INCREMENTAL /NOLOGO Debug\libpng16d.lib "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\lib\zlibstatic*.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngtest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngtest.lib" /MACHINE:X64  /machine:x64 pngtest.dir\Debug\pngtest.obj
+    pngtest.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\pngtest.exe
+    pngtest.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngtest.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "pngtest.dir\Debug\pngtest.tlog\unsuccessfulbuild".
+    Touching "pngtest.dir\Debug\pngtest.tlog\pngtest.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngtest.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngvalid.vcxproj" (7) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "pngvalid.dir\Debug\".
+    Creating directory "pngvalid.dir\Debug\pngvalid.tlog\".
+  InitializeBuildStatus:
+    Creating "pngvalid.dir\Debug\pngvalid.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\include /I"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build" /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"pngvalid.dir\Debug\\" /Fd"pngvalid.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng\contrib\libtests\pngvalid.c
+    pngvalid.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\pngvalid.exe" /INCREMENTAL /NOLOGO Debug\libpng16d.lib "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\zlib\lib\zlibstatic*.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngvalid.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngvalid.lib" /MACHINE:X64  /machine:x64 pngvalid.dir\Debug\pngvalid.obj
+    pngvalid.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\pngvalid.exe
+    pngvalid.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngvalid.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "pngvalid.dir\Debug\pngvalid.tlog\unsuccessfulbuild".
+    Touching "pngvalid.dir\Debug\pngvalid.tlog\pngvalid.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngvalid.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\ALL_BUILD\".
+    Creating directory "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:09.83
+  Performing install step for '__libpng'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 8/26/2019 2:35:44 PM.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\install.vcxproj" on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\install.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ZERO_CHECK.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\install.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\png16.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "png16.dir\Debug\png16.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    png16.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\libpng16d.dll
+    png16.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/libpng16d.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "png16.dir\Debug\png16.tlog\unsuccessfulbuild".
+    Touching "png16.dir\Debug\png16.tlog\png16.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\png16.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\png16_static.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "png16_static.dir\Debug\png16_static.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    png16_static.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\libpng16_staticd.lib
+  FinalizeBuildStatus:
+    Deleting file "png16_static.dir\Debug\png16_static.tlog\unsuccessfulbuild".
+    Touching "png16_static.dir\Debug\png16_static.tlog\png16_static.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\png16_static.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngstest.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "pngstest.dir\Debug\pngstest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    pngstest.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\pngstest.exe
+    pngstest.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngstest.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "pngstest.dir\Debug\pngstest.tlog\unsuccessfulbuild".
+    Touching "pngstest.dir\Debug\pngstest.tlog\pngstest.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngstest.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngtest.vcxproj" (7) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "pngtest.dir\Debug\pngtest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    pngtest.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\pngtest.exe
+    pngtest.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngtest.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "pngtest.dir\Debug\pngtest.tlog\unsuccessfulbuild".
+    Touching "pngtest.dir\Debug\pngtest.tlog\pngtest.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngtest.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngvalid.vcxproj" (8) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "pngvalid.dir\Debug\pngvalid.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    pngvalid.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\Debug\pngvalid.exe
+    pngvalid.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/src/__libpng-build/Debug/pngvalid.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "pngvalid.dir\Debug\pngvalid.tlog\unsuccessfulbuild".
+    Touching "pngvalid.dir\Debug\pngvalid.tlog\pngvalid.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\pngvalid.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\INSTALL\".
+    Creating directory "x64\Debug\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Debug"
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/lib/libpng16d.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/bin/libpng16d.dll
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/lib/libpng16_staticd.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/png.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/pngconf.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/pnglibconf.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/libpng16/png.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/libpng16/pngconf.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/include/libpng16/pnglibconf.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/share/man/man3/libpng.3
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/share/man/man3/libpngpf.3
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/share/man/man5/png.5
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/lib/libpng/libpng16.cmake
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/libpng/lib/libpng/libpng16-debug.cmake
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\libpng\src\__libpng-build\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:00.77
+  Completed '__libpng'

@@ -1,0 +1,3 @@
+repository='https://github.com/LuaDist/libjpeg.git'
+module=''
+tag='origin'

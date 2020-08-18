@@ -1,0 +1,307 @@
+﻿  Creating directories for '__glew'
+  Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/external/CMakeLists.txt
+  CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/CMakeFiles/generate.stamp is up-to-date.
+  Performing download step (git clone) for '__glew'
+  Cloning into '__glew'...
+  Note: checking out '7574ab4d00b683e56adbfdec7da636529dfe65d8'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at 7574ab4... Generate Sources of origin/master updated at Fri Jul 24 17:44:40 GMT 2015
+  Performing update step for '__glew'
+  No patch step for '__glew'
+  Performing configure step for '__glew'
+  -- Selecting Windows SDK version  to target Windows 10.0.17134.
+  -- The C compiler identification is MSVC 19.0.23506.0
+  -- The CXX compiler identification is MSVC 19.0.23506.0
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      CMAKE_BUILD_TYPE
+  
+  
+  -- Build files have been written to: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build
+  Performing build step for '__glew'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 8/26/2019 2:35:11 PM.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\ZERO_CHECK\".
+    Creating directory "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ZERO_CHECK.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\glewinfo.vcxproj" (3) on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\glewinfo.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\libglew_static.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "libglew_static.dir\Debug\".
+    Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\lib\Debug\".
+    Creating directory "libglew_static.dir\Debug\libglew_static.tlog\".
+  InitializeBuildStatus:
+    Creating "libglew_static.dir\Debug\libglew_static.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_MEAN_AND_LEAN /D VC_EXTRALEAN /D GLEW_BUILD /D _CRT_SECURE_NO_WARNINGS /D GLEW_NO_GLU /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"libglew_static.dir\Debug\\" /Fd"libglew_static.dir\Debug\libglew_static.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\src\glew.c
+    glew.c
+  ResourceCompile:
+    C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _DEBUG /D _WINDOWS /D WIN32_MEAN_AND_LEAN /D VC_EXTRALEAN /D GLEW_BUILD /D _CRT_SECURE_NO_WARNINGS /D GLEW_NO_GLU /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\include /nologo /fo"libglew_static.dir\Debug\glew.res" D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\build\glew.rc 
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\lib\Debug\glewd.lib" /NOLOGO /MACHINE:X64  /machine:x64 libglew_static.dir\Debug\glew.res
+    libglew_static.dir\Debug\glew.obj
+    libglew_static.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\lib\Debug\glewd.lib
+  FinalizeBuildStatus:
+    Deleting file "libglew_static.dir\Debug\libglew_static.tlog\unsuccessfulbuild".
+    Touching "libglew_static.dir\Debug\libglew_static.tlog\libglew_static.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\libglew_static.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "glewinfo.dir\Debug\".
+    Creating directory "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Debug\".
+    Creating directory "glewinfo.dir\Debug\glewinfo.tlog\".
+  InitializeBuildStatus:
+    Creating "glewinfo.dir\Debug\glewinfo.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_MEAN_AND_LEAN /D VC_EXTRALEAN /D GLEW_BUILD /D _CRT_SECURE_NO_WARNINGS /D GLEW_NO_GLU /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"glewinfo.dir\Debug\\" /Fd"glewinfo.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\src\glewinfo.c
+    glewinfo.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Debug\glewinfo.exe" /INCREMENTAL /NOLOGO lib\Debug\glewd.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/bin/Debug/glewinfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/lib/Debug/glewinfo.lib" /MACHINE:X64  /machine:x64 glewinfo.dir\Debug\glewinfo.obj
+       Creating library D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/lib/Debug/glewinfo.lib and object D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/lib/Debug/glewinfo.exp
+    glewinfo.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Debug\glewinfo.exe
+    glewinfo.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/bin/Debug/glewinfo.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "glewinfo.dir\Debug\glewinfo.tlog\unsuccessfulbuild".
+    Touching "glewinfo.dir\Debug\glewinfo.tlog\glewinfo.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\glewinfo.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\libglew_shared.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "libglew_shared.dir\Debug\".
+    Creating directory "libglew_shared.dir\Debug\libglew_shared.tlog\".
+  InitializeBuildStatus:
+    Creating "libglew_shared.dir\Debug\libglew_shared.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_MEAN_AND_LEAN /D VC_EXTRALEAN /D GLEW_BUILD /D _CRT_SECURE_NO_WARNINGS /D GLEW_NO_GLU /D "CMAKE_INTDIR=\"Debug\"" /D libglew_shared_EXPORTS /D _WINDLL /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"libglew_shared.dir\Debug\\" /Fd"libglew_shared.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\src\glew.c
+    glew.c
+  ResourceCompile:
+    C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _DEBUG /D _WINDOWS /D WIN32_MEAN_AND_LEAN /D VC_EXTRALEAN /D GLEW_BUILD /D _CRT_SECURE_NO_WARNINGS /D GLEW_NO_GLU /D "CMAKE_INTDIR=\\\"Debug\\\"" /D libglew_shared_EXPORTS /l"0x0409" /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\include /nologo /fo"libglew_shared.dir\Debug\glew.res" D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\build\glew.rc 
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Debug\glewd.dll" /INCREMENTAL /NOLOGO opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/bin/Debug/glewd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/lib/Debug/libglew_sharedd.lib" /MACHINE:X64  /machine:x64 /DLL libglew_shared.dir\Debug\glew.res
+    libglew_shared.dir\Debug\glew.obj
+       Creating library D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/lib/Debug/libglew_sharedd.lib and object D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/lib/Debug/libglew_sharedd.exp
+    libglew_shared.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Debug\glewd.dll
+    libglew_shared.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/bin/Debug/glewd.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "libglew_shared.dir\Debug\libglew_shared.tlog\unsuccessfulbuild".
+    Touching "libglew_shared.dir\Debug\libglew_shared.tlog\libglew_shared.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\libglew_shared.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\visualinfo.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "visualinfo.dir\Debug\".
+    Creating directory "visualinfo.dir\Debug\visualinfo.tlog\".
+  InitializeBuildStatus:
+    Creating "visualinfo.dir\Debug\visualinfo.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_MEAN_AND_LEAN /D VC_EXTRALEAN /D GLEW_BUILD /D _CRT_SECURE_NO_WARNINGS /D GLEW_NO_GLU /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"visualinfo.dir\Debug\\" /Fd"visualinfo.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew\src\visualinfo.c
+    visualinfo.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Debug\visualinfo.exe" /INCREMENTAL /NOLOGO lib\Debug\glewd.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/bin/Debug/visualinfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/lib/Debug/visualinfo.lib" /MACHINE:X64  /machine:x64 visualinfo.dir\Debug\visualinfo.obj
+       Creating library D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/lib/Debug/visualinfo.lib and object D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/lib/Debug/visualinfo.exp
+    visualinfo.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Debug\visualinfo.exe
+    visualinfo.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/bin/Debug/visualinfo.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "visualinfo.dir\Debug\visualinfo.tlog\unsuccessfulbuild".
+    Touching "visualinfo.dir\Debug\visualinfo.tlog\visualinfo.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\visualinfo.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\ALL_BUILD\".
+    Creating directory "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew/CMakeLists.txt
+    CMake does not need to re-run because D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:03.98
+  Performing install step for '__glew'
+  Microsoft (R) Build Engine version 14.0.24730.2
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 8/26/2019 2:35:15 PM.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\install.vcxproj" on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\install.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ZERO_CHECK.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\install.vcxproj" (1) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\glewinfo.vcxproj" (4) on node 1 (default targets).
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\glewinfo.vcxproj" (4) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\libglew_static.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "libglew_static.dir\Debug\libglew_static.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  ResourceCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    libglew_static.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\lib\Debug\glewd.lib
+  FinalizeBuildStatus:
+    Deleting file "libglew_static.dir\Debug\libglew_static.tlog\unsuccessfulbuild".
+    Touching "libglew_static.dir\Debug\libglew_static.tlog\libglew_static.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\libglew_static.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "glewinfo.dir\Debug\glewinfo.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    glewinfo.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Debug\glewinfo.exe
+    glewinfo.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/bin/Debug/glewinfo.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "glewinfo.dir\Debug\glewinfo.tlog\unsuccessfulbuild".
+    Touching "glewinfo.dir\Debug\glewinfo.tlog\glewinfo.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\glewinfo.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\libglew_shared.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "libglew_shared.dir\Debug\libglew_shared.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  ResourceCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    libglew_shared.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Debug\glewd.dll
+    libglew_shared.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/bin/Debug/glewd.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "libglew_shared.dir\Debug\libglew_shared.tlog\unsuccessfulbuild".
+    Touching "libglew_shared.dir\Debug\libglew_shared.tlog\libglew_shared.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\libglew_shared.vcxproj" (default targets).
+  The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+  Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" (3) is building "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\visualinfo.vcxproj" (7) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "visualinfo.dir\Debug\visualinfo.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    visualinfo.vcxproj -> D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\bin\Debug\visualinfo.exe
+    visualinfo.vcxproj -> D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/src/__glew-build/bin/Debug/visualinfo.pdb (Full PDB)
+  FinalizeBuildStatus:
+    Deleting file "visualinfo.dir\Debug\visualinfo.tlog\unsuccessfulbuild".
+    Touching "visualinfo.dir\Debug\visualinfo.tlog\visualinfo.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\visualinfo.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Debug\INSTALL\".
+    Creating directory "x64\Debug\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Debug"
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/lib/glewd.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/lib/libglew_sharedd.lib
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/lib/glewd.dll
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/include/GL/glew.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/include/GL/glxew.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/include/GL/wglew.h
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/bin/glewinfo.exe
+    -- Installing: D:/rexWork/action/20190816_SLAM/ORBSLAM24Windows/Thirdparty/Pangolin/build/external/glew/bin/visualinfo.exe
+  FinalizeBuildStatus:
+    Deleting file "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Debug\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "D:\rexWork\action\20190816_SLAM\ORBSLAM24Windows\Thirdparty\Pangolin\build\external\glew\src\__glew-build\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:00.88
+  Completed '__glew'
