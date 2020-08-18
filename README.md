@@ -66,11 +66,19 @@ euroc_eval_examples_1.bat
 tum_vi_eval_examples.bat
 ```
 
-### Updates
+### Notes
 
+1. Add a global.h to provide some controls over entire project.
 
+2. Reading "ORBvoc.txt" in binary format to speed-up since it seems slowly on Windows. Please comment the macro "USE_BINARY_VOC" out (global.h) to reading it from a txt file.
 
+3. Eigen version is 3.3.7
 
+4. OpenCV version is 3.2.0 and its DLLs are put into target folder directly (./x64/Debug).
+
+5. Several small cross-platform modifications (search for _WINDOWS).
+
+6*. Boost library related contents are removed temporarily.
 
 
 ======================================================================
