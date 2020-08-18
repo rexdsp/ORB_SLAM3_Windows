@@ -5,8 +5,42 @@ Tested under Windows 10 Pro, Visual Studio 2019 Community. I started from Visual
 
 For easy to use, I put all the code including thirdparty libraries in a single project and it doesn't refer to any other resources.
 
+Program arguments:
+----------------------------------------------------------------------
+Usage: slam.exe testName testArguments
+Available tests as the following...
+
+Monocular examples:
+  mono_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N) (trajectory_file_name)
+  mono_kitti path_to_vocabulary path_to_settings path_to_sequence
+  mono_tum path_to_vocabulary path_to_settings path_to_sequence
+  mono_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N) (trajectory_file_name)
+
+Monocular-Inertial examples:
+  mono_inertial_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N)
+  mono_inertial_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_times_file_1 path_to_imu_data_1 (path_to_image_folder_2 path_to_times_file_2 path_to_imu_data_2 ... path_to_image_folder_N path_to_times_file_N path_to_imu_data_N) (trajectory_file_name)
+
+RGB-D:
+  rgbd_tum path_to_vocabulary path_to_settings path_to_sequence path_to_association
+
+Stereo:
+  stereo_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N) (trajectory_file_name)
+  stereo_kitti path_to_vocabulary path_to_settings path_to_sequence
+  stereo_tum_vi path_to_vocabulary path_to_settings path_to_image_folder1_1 path_to_image_folder2_1 path_to_times_file_1 (path_to_image_folder1_2 path_to_image_folder2_2 path_to_times_file_2 ... path_to_image_folder1_N path_to_image_folder2_N path_to_times_file_N) (trajectory_file_name)
+
+Stereo-Inertial:
+  stereo_inertial_euroc path_to_vocabulary path_to_settings path_to_sequence_folder_1 path_to_times_file_1 (path_to_image_folder_2 path_to_times_file_2 ... path_to_image_folder_N path_to_times_file_N)
+  stereo_inertial_tum_vi path_to_vocabulary path_to_settings path_to_image_folder_1 path_to_image_folder_2 path_to_times_file path_to_imu_data (trajectory_file_name)
+----------------------------------------------------------------------
+
+
+
+
+
+
 
 ======================================================================
+
 The following copied from original website: https://github.com/UZ-SLAMLab/ORB_SLAM3
 
 ### V0.3: Beta version, 7 Aug 2020
