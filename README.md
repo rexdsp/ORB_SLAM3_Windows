@@ -78,7 +78,7 @@ tum_vi_eval_examples.bat
 
 5. Several small cross-platform modifications (search for _WINDOWS).
 
-6*. Boost library related contents are removed temporarily.
+6. Boost library related contents are removed temporarily.
 
 
 ======================================================================
