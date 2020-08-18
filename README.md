@@ -1,8 +1,13 @@
 # ORB_SLAM3_Windows
 Windows version of ORB-SLAM3 with some slight updates. Please refer to original website for details: https://github.com/UZ-SLAMLab/ORB_SLAM3
 
+Tested under Windows 10 Pro, Visual Studio 2019 Community. I started from Visual Studio 2015 but met many "fatal error C1060: compiler is out of heap space" when building. Those errors are solved by switch to VS2019.
 
-================================================================================
+For easy to use, I put all the code including thirdparty libraries in a single project and it doesn't refer to any other resources.
+
+
+======================================================================
+The following copied from original website: https://github.com/UZ-SLAMLab/ORB_SLAM3
 
 ### V0.3: Beta version, 7 Aug 2020
 **Authors:** Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, [José M. M. Montiel](http://webdiis.unizar.es/~josemari/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/).
