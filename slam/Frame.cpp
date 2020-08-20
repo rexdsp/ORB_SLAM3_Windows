@@ -172,7 +172,7 @@ Frame::Frame(const cv::Mat &imLeft, const cv::Mat &imRight, const double &timeSt
         mVw = cv::Mat::zeros(3,1,CV_32F);
     }
 
-    //AssignFeaturesToGrid(); // move to later since it use Nleft
+    //AssignFeaturesToGrid(); // move after the initialization of Nleft
 
     mpMutexImu = new std::mutex();
 
