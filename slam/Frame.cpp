@@ -126,7 +126,7 @@ Frame::Frame(const cv::Mat &imLeft, const cv::Mat &imRight, const double &timeSt
 #ifdef SAVE_TIMES
     std::chrono::steady_clock::time_point time_StartStereoMatches = std::chrono::steady_clock::now();
 #endif
-    ComputeStereoMatches();
+    //ComputeStereoMatches(); // move to after the initialization of mb
 #ifdef SAVE_TIMES
     std::chrono::steady_clock::time_point time_EndStereoMatches = std::chrono::steady_clock::now();
 
@@ -161,6 +161,8 @@ Frame::Frame(const cv::Mat &imLeft, const cv::Mat &imRight, const double &timeSt
     }
 
     mb = mbf/fx;
+    
+    ComputeStereoMatches();
 
     if(pPrevF)
     {
